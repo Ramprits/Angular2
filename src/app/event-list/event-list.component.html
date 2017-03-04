@@ -1,0 +1,21 @@
+
+<div class="card" style="margin-top: 20px;">
+  <img class="card-img-top" data-src="holder.js/100%x180/" alt="">
+  <div class="card-block">
+    <h4 class="card-title">Event-List Details</h4>
+    <p class="text-primary">
+     Upcomming Angular 2 events in Mumbai.
+    </p>
+    <hr>
+    <div class="well">
+   <h4 class="text-danger"> {{event.name}}</h4>
+   <div>Date: {{event.date}}</div>
+   <div>Time: {{event.time}}</div>
+   <div>Price: ${{event.price}}</div>
+   <div>Location: {{event.location.address}} - {{event.location.country}}</div>
+  </div>
+  <hr>
+  <button class="btn btn-primary" (click)="handaleClickMe()">Click me !</button>
+  
+  </div>
+</div>

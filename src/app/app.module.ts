@@ -5,11 +5,15 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { EmployeeComponentComponent } from './employee-component/employee-component.component';
+import { EventListComponent } from './event-list/event-list.component';
+import { EventThumbnailComponent } from './event-list/event-thumbnail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmployeeComponentComponent
+    EmployeeComponentComponent,
+    EventListComponent,
+    EventThumbnailComponent
   ],
   imports: [
     BrowserModule,
